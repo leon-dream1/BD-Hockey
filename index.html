@@ -35,7 +35,14 @@
                     colors: {
                         clifford: '#da373d',
                         'primary-color': '#FF4240'
-                    }
+                    },
+                    backgroundImage: {
+                        'junior-program': "linear-gradient(to right bottom, rgba(19, 19, 24, 0.70), rgba(19, 19, 24, 0.50)), url('./Images/2.png')",
+
+                        'teenager-program': "linear-gradient(to right bottom, rgba(19, 19, 24, 0.60), rgba(19, 19, 24, 0.50)), url('./Images/3.png')",
+
+                        'professional-program': "linear-gradient(to right bottom, rgba(19, 19, 24, 0.60), rgba(19, 19, 24, 0.50)), url('./Images/4.png')",
+                    },
                 }
             }
         }
@@ -89,44 +96,48 @@
             </nav>
 
             <div class="banner relative mt-6">
-                 <div class="carousel w-full">
-                      <div id="slide1" class="carousel-item relative w-full">
-                            <img src="./Images/1.png" class="w-full" />
-                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                <a href="#slide4" class="btn btn-circle">❮</a> 
-                                <a href="#slide2" class="btn btn-circle">❯</a>
-                            </div>
-                    </div> 
-                   <div id="slide2" class="carousel-item relative w-full">
-                      <img src="./Images/1.png" class="w-full" />
-                   <!--   <div class="hidden lg:flex flex-col bg-black absolute right-8 bottom-8 w-[500px] p-8 rounded-2xl">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="./Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="./Images/4.png" class="w-full" />
+                        <!--   <div class="hidden lg:flex flex-col bg-black absolute right-8 bottom-8 w-[500px] p-8 rounded-2xl">
                         <h1 class="text-white text-2xl font-bold mb-4">Meet all the heroes from the field</h1>
                         <p class="text-[#FFFFFF] opacity-[0.60] font-medium leading-6">Ibrahim Saber, Rahman Sarkar, Kowser Ali Bangladeshi International Hockey Player and Abu Nippon is a Bangladeshi professional field hockey player who plays as a goalkeeper and so .
                         </p>
                       </div> -->
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a> 
-                        <a href="#slide3" class="btn btn-circle">❯</a>
-                      </div>
-                    </div> 
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
                     <div id="slide3" class="carousel-item relative w-full">
-                      <img src="./Images/1.png" class="w-full" />
-                      <!--<div class="hidden lg:flex flex-col bg-black absolute right-8 bottom-8 w-[500px] p-8 rounded-2xl">
+                        <img src="./Images/1.png" class="w-full" />
+                        <!--<div class="hidden lg:flex flex-col bg-black absolute right-8 bottom-8 w-[500px] p-8 rounded-2xl">
                         <h1 class="text-white text-2xl font-bold mb-4">Meet all the heroes from the field</h1>
                         <p class="text-[#FFFFFF] opacity-[0.60] font-medium leading-6">Ibrahim Saber, Rahman Sarkar, Kowser Ali Bangladeshi International Hockey Player and Abu Nippon is a Bangladeshi professional field hockey player who plays as a goalkeeper and so .
                         </p>
                       </div>-->
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a> 
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                      </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
                     </div>
-                </div> 
-              
-                <div class="bg-black mt-5 lg:mt-0 lg:absolute lg:right-8 lg:bottom-8 w-[100%] lg:w-[500px] p-5 lg:p-8 rounded-2xl">
-                  <h1 class="text-white text-xs lg:text-2xl font-bold mb-2 lg:mb-4">Meet all the heroes from the field</h1>
-                  <p class="text-[#FFFFFF] opacity-[0.60] font-medium leading-6">Ibrahim Saber, Rahman Sarkar, Kowser Ali Bangladeshi International Hockey Player and Abu Nippon is a Bangladeshi professional field hockey player who plays as a goalkeeper and so .
-                  </p>
+                </div>
+
+                <div
+                    class="bg-black mt-5 lg:mt-0 lg:absolute lg:right-8 lg:bottom-8 w-[100%] lg:w-[500px] p-5 lg:p-8 rounded-2xl">
+                    <h1 class="text-white text-xs lg:text-2xl font-bold mb-2 lg:mb-4">Meet all the heroes from the field
+                    </h1>
+                    <p class="text-[#FFFFFF] opacity-[0.60] font-medium leading-6">Ibrahim Saber, Rahman Sarkar, Kowser
+                        Ali Bangladeshi International Hockey Player and Abu Nippon is a Bangladeshi professional field
+                        hockey player who plays as a goalkeeper and so .
+                    </p>
                 </div>
             </div>
         </div>
@@ -135,29 +146,106 @@
     <main>
         <section class="club-detail my-28">
             <div class="container mx-auto">
-                <h2 class="text-xl lg:text-4xl text-[#131318] font-extrabold text-center mb-3 lg:mb-6">Professional Hockeys Club</h2>
-                <p class="text-[#131318] text-[14px] lg:text-[16px] opacity-60 font-medium lg:w-[607px] lg:mx-auto text-center p-2 lg:p-0">Welcome to the online home of BD Hockey, where passion meets precision on the ice. As a proud member of this , we embody the spirit of competition, sportsmanship, and the relentless pursuit of excellence. Nestled at the heart of Dhaka, our professional hockey club is more than just a team. We are a community united by our love for the game.</p>
+                <div class="border-t-[1px] pt-10 border-b-[1px] border-dashed pb-10">
+                    <h2 class="text-xl lg:text-4xl text-[#131318] font-extrabold text-center mb-3 lg:mb-6 ">Professional
+                        Hockeys Club</h2>
+                    <p
+                        class="text-[#131318] text-[14px] lg:text-[16px] opacity-60 font-medium lg:w-[707px] lg:mx-auto text-center p-2 lg:p-0 ">
+                        Welcome to the online home of BD Hockey, where passion meets precision on the ice. As a proud
+                        member
+                        of this , we embody the spirit of competition, sportsmanship, and the relentless pursuit of
+                        excellence. Nestled at the heart of Dhaka, our professional hockey club is more than just a
+                        team. We
+                        are a community united by our love for the game.</p>
 
+                </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
                     <div class="text-center p-5">
-                        <div class="radial-progress text-[#FF4240] mb-6" style="--value:87;" role="progressbar">87%</div>
+                        <div class="radial-progress text-[#FF4240] mb-6" style="--value:87;" role="progressbar">87%
+                        </div>
                         <h3 class="text-[#131318] text-xl font-semibold mb-4">Prayer Facility</h3>
-                        <p class="text-[#131318] opacity-60 font-medium">Within the north side of the club, designated prayer rooms are available to offer a quiet and reflective space for individuals to observe their religious practices.</p>
+                        <p class="text-[#131318] opacity-60 font-medium">Within the north side of the club, designated
+                            prayer rooms are available to offer a quiet and reflective space for individuals to observe
+                            their religious practices.</p>
                     </div>
                     <div class="text-center p-5">
-                        <div class="radial-progress text-[#49D293] mb-6" style="--value:95;" role="progressbar">95%</div>
+                        <div class="radial-progress text-[#49D293] mb-6" style="--value:95;" role="progressbar">95%
+                        </div>
                         <h3 class="text-[#131318] text-xl font-semibold mb-4">Experienced Coach</h3>
-                        <p class="text-[#131318] opacity-60 font-medium">Meet the driving force behind Hockey's success—the experienced and visionary coach who leads our team to greatness.Our head coach brings a wealth of knowledge, passion, and strategic acumen to the ice.</p>
+                        <p class="text-[#131318] opacity-60 font-medium">Meet the driving force behind Hockey's
+                            success—the experienced and visionary coach who leads our team to greatness.Our head coach
+                            brings a wealth of knowledge, passion, and strategic acumen to the ice.</p>
                     </div>
                     <div class="text-center p-5">
-                        <div class="radial-progress text-[#FFB546] mb-6" style="--value:90;" role="progressbar">90%</div>
+                        <div class="radial-progress text-[#FFB546] mb-6" style="--value:90;" role="progressbar">90%
+                        </div>
                         <h3 class="text-[#131318] text-xl font-semibold mb-4">Senior Player</h3>
-                        <p class="text-[#131318] opacity-60 font-medium">The heartbeat of or club, our seasoned and accomplished senior player whose skill, leadership, and dedication epitomize the essence of our team.The illustrious career of Akbar is punctuated with numerous.</p>
+                        <p class="text-[#131318] opacity-60 font-medium">The heartbeat of or club, our seasoned and
+                            accomplished senior player whose skill, leadership, and dedication epitomize the essence of
+                            our team.The illustrious career of Akbar is punctuated with numerous.</p>
                     </div>
                     <div class="text-center p-5">
-                        <div class="radial-progress text-[#4C8DF1] mb-6" style="--value:80;" role="progressbar">80%</div>
+                        <div class="radial-progress text-[#4C8DF1] mb-6" style="--value:80;" role="progressbar">80%
+                        </div>
                         <h3 class="text-[#131318] text-xl font-semibold mb-4">Training Ground</h3>
-                        <p class="text-[#131318] opacity-60 font-medium">Our training ground is equipped with cutting-edge facilities designed to hone the skills and physical prowess of our players. We spare no effort in providing an environment that fosters growth, development, and peak performance.</p>
+                        <p class="text-[#131318] opacity-60 font-medium">Our training ground is equipped with
+                            cutting-edge facilities designed to hone the skills and physical prowess of our players. We
+                            spare no effort in providing an environment that fosters growth, development, and peak
+                            performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="program my-28">
+            <div class="container mx-auto">
+                <div class="border-t-[1px] pt-10 border-b-[1px] border-dashed pb-10">
+                    <h2 class="text-xl lg:text-4xl text-[#131318] font-extrabold text-center mb-3 lg:mb-6">Program
+                        Sections
+                    </h2>
+                    <p
+                        class="text-[#131318] text-[14px] lg:text-[16px] opacity-60 font-medium lg:w-[707px] lg:mx-auto text-center p-2 lg:p-0">
+                        Explore our program section regularly to stay updated on upcoming events, initiatives, and
+                        opportunities to be an active participant in the Hockey experience. Join us in celebrating the
+                        spirit of hockey and the vibrant community that makes us more than just a team—it's a way of
+                        life.
+                    </p>
+                </div>
+                <div class="grid grid-cols-12 gap-6 text-white mt-14">
+                    <div
+                        class="col-start-1 col-end-13 lg:col-start-1 lg:col-end-7 bg-junior-program bg-no-repeat bg-cover bg-center space-y-5 py-[20px] lg:py-[50px] px-[20px] lg:px-[40px] rounded-2xl m-[10px] lg:m-0">
+                        <h4 class="text-xl lg:text-3xl pt-[40px] font-extrabold ">Junior Program</h4>
+                        <p class="font-medium text-[14px] lg:text-[16px] leading-6 w-[100%] lg:w-[70%]">Junior hockey
+                            programs typically cater to players in various age groups, ranging from as
+                            young as 6 or 7 up to 20 years old. The age groups are often divided into categories like
+                            Under-8, Under-10, Under-12, Under-14, Under-16, and Under-18.</p>
+                        <button
+                            class="bg-[#FF4240] rounded-lg px-[10px] lg:px-[20px] py-[10px] lg:py-[10px] text-white text-[18px] lg:text-xl font-bold cursor-pointer">Register
+                            Now</button>
+                    </div>
+                    <div
+                        class="col-start-1 col-end-13 lg:col-start-7 lg:col-end-13 bg-teenager-program bg-no-repeat bg-cover bg-center space-y-5 py-[20px] lg:py-[50px] px-[20px] lg:px-[40px] rounded-2xl m-[10px] lg:m-0">
+                        <h4 class="text-xl lg:text-3xl pt-[40px] font-extrabold ">Teenager Program</h4>
+                        <p class="font-medium text-[14px] lg:text-[16px]leading-6 w-[100%] lg:w-[70%]">Teenager programs
+                            typically cater to players in the age range of 13 to 18 years old. The specific age
+                            categories may vary depending on the club or league structure.Similar to junior programs,
+                            teenager programs focus on refining and advancing players' skills.</p>
+                        <button
+                            class="bg-[#FF4240] rounded-lg px-[10px] lg:px-[20px] py-[10px] lg:py-[10px] text-white text-[18px] lg:text-xl font-bold cursor-pointer">Register
+                            Now</button>
+                    </div>
+                    <div
+                        class="col-start-1 col-end-13 lg:col-start-1 lg:col-end-13 bg-professional-program bg-no-repeat bg-cover bg-center space-y-5 py-[20px] lg:py-[50px] px-[20px] lg:px-[40px] rounded-2xl m-[10px] lg:m-0">
+                        <h4 class="text-xl lg:text-3xl pt-[40px] lg:pt-[150px] font-extrabold ">Professional Program
+                        </h4>
+                        <p class="font-medium text-[14px] lg:text-[16px] leading-6 w-[100%] lg:w-[50%]">Professional
+                            programs are typically for players who have progressed through junior and teenage programs
+                            and have demonstrated a high level of skill, talent, and potential. These programs may
+                            include players in their late teens and early twenties.Professional programs are led by
+                            experienced and highly qualified coaches, often with backgrounds in professional hockey.</p>
+                        <button
+                            class="bg-[#FF4240] rounded-lg  px-[10px] lg:px-[20px] py-[10px] lg:py-[10px] text-white text-[18px] lg:text-xl font-bold cursor-pointer">Register
+                            Now</button>
                     </div>
                 </div>
             </div>
@@ -169,13 +257,16 @@
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-start-1 col-end-13 text-center lg:text-start lg:col-start-1 lg:col-end-6 mb-5 lg:mb-0">
                     <h6 class="text-[28px] font-extrabold text-white mb-4">Get In Touch</h6>
-                    <p class="text-white opacity-60 mb-6">Please Mail us to get membership in our club. You are welcome!!!!!</p>
+                    <p class="text-white opacity-60 mb-6">Please Mail us to get membership in our club. You are
+                        welcome!!!!!</p>
                     <p class="text-white opacity-60 mb-4">
                         <i class="fa-regular fa-envelope text-[#FF4240] mr-2"></i>
-                        hockeys@support.com</p>
+                        hockeys@support.com
+                    </p>
                     <p class="text-white opacity-60">
                         <i class="fa-solid fa-phone text-[#FF4240] mr-2"></i>
-                        +8801887576444</p>
+                        +8801887576444
+                    </p>
                 </div>
                 <div class="col-start-1 col-end-7 lg:col-start-7 lg:col-end-9 text-center lg:text-start">
                     <h6 class="text-xl font-extrabold text-white mb-7">Company</h6>
@@ -210,7 +301,7 @@
                 </div>
             </div>
         </div>
-       
+
     </footer>
 </body>
 
